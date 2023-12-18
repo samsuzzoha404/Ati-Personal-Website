@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    color: tomato;
+}
+h2{
+    font-size: 35px;
+    color: orangered;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 42%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+}
+.half-width2{
+    width: 42%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+}
+.half-width3{
+    width: 42%;
+    float: left;
+    margin-top: 12%;
+}
+.gellary{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 3%;
+    height: 500px;
+}
+.gellary img{
+    width: 100%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width2 img{
+    width: 100%;
+}
+#only-text{
+    margin-top: 9%;
+}
+#photos{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.top-bg{
+    background-image: url("photos/header-bg.png");
+    height: 700px;
+    background-size: 100%;
+}
+
+.about-me{
+    background-image: url("photos/biography-bg.png");
+    height: 700px;
+    background-size: 100%;
+}
+.third-part{
+    background-image: url("photos/footer-bg.png");
+    height: 600px;
+    background-size: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, Tomato);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+a:hover{
+        color: blue;
+}
+h1:hover{
+    color: blueviolet;
+}
+h2:hover{
+    color: rgb(10, 76, 163);
+}
+p:hover{
+    color: darkorange;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
